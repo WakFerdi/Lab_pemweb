@@ -34,3 +34,6 @@ nav{
     padding: 14px 16px;
     text-decoration: no;
 }
+:last-child{
+    float: right;
+}
