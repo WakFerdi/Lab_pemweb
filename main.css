@@ -37,3 +37,6 @@ nav{
 :last-child{
     float: right;
 }
+:hover{
+    background-color: black;
+}
