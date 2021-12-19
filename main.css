@@ -26,17 +26,15 @@ nav{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:violet;
+    background-color: rgb(255, 0, 128);
+}
+.li{
     float: left;
+}
+li{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: no;
-}
-:last-child{
-    float: right;
-}
-:hover{
-    background-color: black;
+    text-decoration: none;
 }
