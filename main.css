@@ -1,3 +1,12 @@
 body{
     background-color: aquamarine;
 }
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-width: 15px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 30%;
+    border-color: green;
+}
