@@ -104,3 +104,9 @@ tr:hover{
     align-items: center;
     margin-bottom: 100%;
 }
+.my-portofolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
