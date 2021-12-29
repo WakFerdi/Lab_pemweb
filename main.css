@@ -80,3 +80,14 @@ tr:hover{
     bottom: 0;
     width: 100%;
 }
+.form-register{
+    position: static;
+    margin-bottom: 100px;
+}
+.content-form{
+    max-width: 70%;
+    margin: auto;
+}
+.ss{
+    margin-bottom: 30px;
+}
