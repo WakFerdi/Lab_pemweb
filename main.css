@@ -110,3 +110,13 @@ tr:hover{
     flex-wrap: wrap;
     margin-bottom: 50px;
 }
+@media (max-width: 850px){
+    .my-portofolio{
+        width: 50%;
+    }
+}
+@media (max-width: 500px){
+    .my-portofolio{
+        width: 100%;
+    }
+}
