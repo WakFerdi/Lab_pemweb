@@ -7,22 +7,72 @@
     <title>LabPratikumPemweb</title> <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
     <nav id="navbar">
         <ul>
-            <li><a href="contact.html">Contact Me</a></li>
             <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
         </ul>
     </nav>
-    <h1>Register</h1>
-        <hr>
-        <p>Klik link disini untuk mendaftar <a
-        href="C:\xampp\htdocs\perkenalan_pemrograman_web\Lab_pemweb\register.html"> Register</a></p>
-        <p>Klik link disini untuk Login <a
-        href="C:\xampp\htdocs\perkenalan_pemrograman_web\Lab_pemweb\login.html"> Login</a></p>
-        </body>
-        <div>
-            <p>Copyright © 2020 FERDI ARDIANSYAH. All Rights Reserved</p>
-        </div>
+    <h1>Form Register</h1>
+    <table border="2" cellpading="10">
+        <tr>
+            <td align="center">Label</td>
+            <td align="center">Name</td>
+            <td align="center">Input</td>
+        </tr>
+        <tr>
+            <td>First Name</td>
+            <td>firstname</td>
+            <td form="text">text : <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td>lastname</td>
+            <td form="text">text : <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>email</td>
+            <td form="email">email : <input type="email"></td>
+        </tr>
+        <tr>
+            <td>Place Of Birth</td>
+            <td>placeofBirth</td>
+            <td form="text">text : <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Date Of Birth</td>
+            <td>dateofBirth</td>
+            <td form="text">text : <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>gender</td>
+            <td form="radio">radio : <input type="radio"name="jenis_kelamin"value="Laki-Laki">Laki-Laki
+            <input type="radio"name="jenis_kelamin"value="Perempuan">Perempuan</td>
+        </tr>
+        <tr>
+            <td>Married</td>
+            <td>married</td>
+            <td form="checkbox">checkbox : <input type="checkbox"value="I HAVE READ, FULLY UNDERSTAND AND AGREE
+            TO THE FOREGOING SUBMISSION AGREEMENT">I HAVE READ, FULLY UNDERSTAND AND AGREE
+            TO THE FOREGOING SUBMISSION AGREEMENT</td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>password</td>
+            <td form="password">password : <input type="password"></td>
+        </tr>
+    </table>
+    <br>
+    <input type="submit" value="Register">
+    <br>
+    <p><a href="login.html">Register</a></p>
+    <p><a href="index.html">Home</a></p>
+    <div class="footer">
+        <p>Copyright &copy; FERDI ARDIANSYAH ALL Right Reserverd</p>
+    </div>
 </body>
 </html>
