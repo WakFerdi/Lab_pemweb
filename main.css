@@ -91,3 +91,10 @@ tr:hover{
 .ss{
     margin-bottom: 30px;
 }
+.form-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-bottom: 100px;
+}
