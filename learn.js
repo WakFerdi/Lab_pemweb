@@ -25,3 +25,15 @@ window.alert(`Angka favorit saya adalah : ${myNumber}`);
     console.log('++x =', ++x);
     console.log('x-- =', x--);
     console.log('--x =', --x);
+     //membuat operasi sederhana dengan operator perbandingan
+     let a= 8
+     let b= 4
+     console.log(a, b);
+     console.log('a > b =', a > b);
+     console.log('a < b =', a < b);
+     console.log('a >= b =', a >= b);
+     console.log('a <= b =', a <= b);
+     console.log('a == b =', a == b);
+     console.log('a != b =', a != b);
+     console.log('a === b =', a === b);
+     console.log('a !== b =', a !== b);
