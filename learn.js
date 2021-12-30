@@ -37,3 +37,14 @@ window.alert(`Angka favorit saya adalah : ${myNumber}`);
      console.log('a != b =', a != b);
      console.log('a === b =', a === b);
      console.log('a !== b =', a !== b);
+     //membuat operasi sederhana dengan operator logika
+     console.log('true && true =', true && true);
+     console.log('true && false =', true && false);
+     console.log('false && true =', false && true);
+     console.log('false && false =', false && false);
+     console.log('true || true =', true || true);
+     console.log('true || false =', true || false);
+     console.log('false || true =', false || true);
+     console.log('false || false =', false || false);
+     console.log('!true =', !true);
+     console.log('!false =', !false);
