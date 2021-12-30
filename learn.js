@@ -15,13 +15,13 @@ window.alert(`Angka favorit saya adalah : ${myNumber}`);
 //membuat operasi sederhana dengan operator aritmatika
     let x= 8
     let y= 4
-    console.log('8, 4');
-    console.log('8 + 4 =', x + y);
-    console.log('8 - 4 =', x - y);
-    console.log('8 * 4 =', x * y);
-    console.log('8 / 4 =', x / y);
-    console.log('8 % 4 =', x % y);
-    console.log('8++ =', x++);
-    console.log('++8 =', ++x);
-    console.log('8-- =', x--);
-    console.log('--8 =', --x);
+    console.log(x, y);
+    console.log('x + y =', x + y);
+    console.log('x - y =', x - y);
+    console.log('x * y =', x * y);
+    console.log('x / y =', x / y);
+    console.log('x % y =', x % y);
+    console.log('x++ =', x++);
+    console.log('++x =', ++x);
+    console.log('x-- =', x--);
+    console.log('--x =', --x);
