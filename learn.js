@@ -119,3 +119,13 @@ window.alert(`Angka favorit saya adalah : ${myNumber}`);
      console.log(person["lastname"]); //menampilkan nama akhir di console dengan methode bracket notation
      console.log(person["id"]); //menampilkan id di console dengan methode bracket notation
      console.log(person["fullname"]()); //menampilkan nama lengkap di console dengan methode bracket notation
+
+     //Anomali pada javascript
+     console.log(0.1 + 0.2 == 0.3); //menampilkan tipe Data Boolean
+     console.log(1 + "1"); //menampilkan tipe Data Number
+     console.log(1 - "1"); //menampilkan tipe Data Number
+     console.log(1 < 2 < 3); //menampilkan tipe Data Boolean
+     console.log(3 > 2 > 1); //menampilkan tipe Data Boolean
+     console.log(null == 0); //menampilkan tipe Data Boolean
+     console.log(null > 0); //menampilkan tipe Data Boolean
+     console.log(null >= 0); //menampilkan tipe Data Boolean
