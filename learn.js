@@ -48,3 +48,21 @@ window.alert(`Angka favorit saya adalah : ${myNumber}`);
      console.log('false || false =', false || false);
      console.log('!true =', !true);
      console.log('!false =', !false);
+     //meghitung fungsi luas persegi, luas segitiga, dan volume balok
+     function luas_persegi(s){ //menggunakan 1 parameter
+         let luas = s*s; //rumus luas persegi
+         return luas; //mengembalikan nilai ke yang memanggil 
+     }
+     luas_persegi(10);
+
+     function luas_segitiga(a, t){ //menggunakan 2 parameter
+         let luas = 0.5*a*t; //rumus luas segitiga
+         return luas; //mengembalikan nilai ke yang memanggil
+     }
+     luas_segitiga(10, 5);
+
+     function volume_balok(p, l, t){ //menggunakan 3 parameter
+         let volume = p*l*t; //rumus volume balok
+         return volume; //mengembalikan nilai ke yang memanggil
+     }
+     volume_balok(10, 5, 2);
