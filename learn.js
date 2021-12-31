@@ -100,3 +100,22 @@ window.alert(`Angka favorit saya adalah : ${myNumber}`);
 
      products.reverse(); //membalikkan urutan array
      console.log(products);
+
+// membuat objek
+     let person = {
+         firstname: "Ferdi", //nama awal objek
+         lastname: "Ardiansyah", //nama akhir objek
+         id: 203510353, // id objek
+         fullname: function() { //methode function objek
+             return this.firstname + " " + this.lastname;
+         }
+     };
+     console.log(person.firstname); //menampilkan nama awal di console dengan methode dot notation
+     console.log(person.lastname); //menampilkan nama akhir di console dengan methode dot notation
+     console.log(person.id); //menampilkan id di console dengan methode dot notation
+     console.log(person.fullname()); //menampilkan nama lengkap di console dengan methode dot notation
+
+     console.log(person["firstname"]); //menampilkan nama awal di console dengan methode bracket notation
+     console.log(person["lastname"]); //menampilkan nama akhir di console dengan methode bracket notation
+     console.log(person["id"]); //menampilkan id di console dengan methode bracket notation
+     console.log(person["fullname"]()); //menampilkan nama lengkap di console dengan methode bracket notation
