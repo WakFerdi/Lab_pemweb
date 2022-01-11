@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwitchCase</title>
+</head>
+<body>
+    <script>
+        var jawaban = prompt("Masukkan Pilihan (1-12):");
+        var bulan = "";
+
+        switch(jawaban) {
+        case '1':
+            bulan = "Januari";
+            break;
+        case '2':
+            bulan = "Februari";
+            break;
+        case '3':
+            bulan = "Maret";
+            break;
+        case '4':
+            bulan = "April";
+            break;
+        case '5':
+            bulan = "Mei";
+            break;
+        case '6':
+            bulan = "Juni";
+            break;
+        case '7':
+            bulan = "Juli";
+            break;
+        case '8':
+            bulan = "Agustus";
+            break;
+        case '9':
+            bulan = "September";
+            break;
+        case "10":
+            bulan = "Oktober";
+            break;
+        case "11":
+            bulan = "November";
+            break;
+        case "12":
+            bulan = "Desember";
+            break;
+        default:
+            bulan = "";
+        }
+    if(bulan == "") {
+        document.write("Pilihan Anda Salah!!!")
+    }else {
+        document.write("<h2>Bulan yang anda pilih adalah Bulan " + bulan + "</h2>");
+    }
+    </script>
+</body>
+</html>
